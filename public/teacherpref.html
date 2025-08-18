@@ -455,7 +455,7 @@ document.getElementById('schedulerForm').addEventListener('submit', function(e) 
     });
 
     const data = {
-        TeacherId: formData.get('TeacherId'),
+        TeacherId: formData.get('TeacherId').toUpperCase(),
         TeacherName: formData.get('TeacherName'),
         unavailableDays: selectedDays,
         unavailableSlots: finalSlots,
@@ -504,4 +504,5 @@ document.getElementById('schedulerForm').addEventListener('submit', function(e) 
 </body>
 </html>
     
+
 
