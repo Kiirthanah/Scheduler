@@ -8,7 +8,8 @@ I then wrap the functions as an api using Flask <mpApp.py>
 Then i call the api in a html webpage <scheduler.html>
 
 More Information 
-teacher assignment checks through the following 
+
+Teacher assignment checks through the following 
 - teaching hours esnuring teachers have balanced and fair workloads
 - assigns teachers based on subjects they teach
 - assigns teachers based on subjects they have been assigned to teach ( so the teacher can teach the same subjects throughout diff classes )
